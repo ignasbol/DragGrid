@@ -1,8 +1,9 @@
 $( function() {
   $( "#sortable" ).sortable({
-    connectWith: ".box",
-    placeholder: "box-placeholder",
-    forcePlaceholderSize: true
+    connectWith: ".card",
+    placeholder: "placeholder",
+    forcePlaceholderSize: true,
+    cursor: 'move'
   });
   $( "#sortable" ).disableSelection();
 });
